@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
