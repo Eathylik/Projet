@@ -5,8 +5,35 @@ ul {
     list-style-type: none;
 }
 
-header{
+nav{
+    padding: 0;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* balise Nav est parent du UL et Li */
+
+img{
+    height: 30px; 
+}
+
+button {
+    border:none;
+    background-color: #fb2056;
+    border-radius: 30px;
+    font-family: "Noto Sans", sans-serif;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+body {
+    background-color: grey;
 }
