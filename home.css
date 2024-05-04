@@ -36,4 +36,30 @@ button {
 
 body {
     background-color: grey;
+    margin: 0;
+}
+
+footer {
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    
+}
+
+.class1 {
+    display: flex;
+    justify-content: center;
+}
+
+.class2 {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-image: url("./image/Lac\ canada.jpg");
+    background-attachment: fixed;
 }
