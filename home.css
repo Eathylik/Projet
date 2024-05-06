@@ -44,8 +44,8 @@ button {
 }
 
 footer {
+
     margin-top: 40px;
-    margin-bottom: 40px;
     padding: 25px;
     background-color: black;
     color: white;
@@ -148,4 +148,22 @@ h3 {
     position: relative;
     right: 350px;
     bottom: 80px;
+}
+
+.event {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.125rem;
+    font-weight: bold;
+    line-height: 1.3em;
+    align-items: center;
+    flex-direction: column;
+}
+
+.barre2 {
+    border-bottom: solid #fb2056 2px;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
 }
