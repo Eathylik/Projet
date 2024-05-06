@@ -1,3 +1,10 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
 ul {
     display: flex;
     gap: 1rem;
@@ -16,7 +23,6 @@ nav{
 a {
     color: white;
     text-decoration: none;
-    font-family: "Noto Sans", sans-serif;
 }
 
 /* balise Nav est parent du UL et Li */
@@ -29,18 +35,15 @@ button {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
-    font-family: "Noto Sans", sans-serif;
     padding-left: 16px;
     padding-right: 16px;
-}
-
-body {
-    background-color: grey;
-    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    bottom: 6px;
 }
 
 footer {
-    font-family: "Noto Sans", sans-serif;
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 25px;
@@ -60,6 +63,89 @@ footer {
 }
 
 header {
-    background-image: url("./image/Lac\ canada.jpg");
+    background-image: url("./image/photo-page1.jpg");
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+header section {
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+/* la classe Icon est parente des titres (H) de la barre et du Learn more*/
+
+.icon {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* les titres ont un margin de padding de base /!\ */
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.barre {
+    border-bottom: solid #fb2056 2px;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.learn {
+    border:none;
+    background-color: #fb2056;
+    border-radius: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 50px;
+    font-size: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.point {
+    width: 80px;
+    height: 60px;
+    position: relative;
+    right: 350px;
+    bottom: 80px;
 }
