@@ -1,3 +1,5 @@
+
+
 body {
     background-color: grey;
     margin: 0;
@@ -166,4 +168,55 @@ h3 {
     width: 50px;
     margin: auto;
     margin-top: 10px;
+}
+
+.activite {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    padding: 1rem;
+}
+
+.droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    padding: 1rem;
+
+}
+
+.bout {
+    border:none;
+    background-color: #fb2056;
+    border-radius: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    bottom: 6px;
+    font-size: 10px;
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 15px;
+}
+.activite img {
+    height: auto;
+    width: 70%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 2%;
 }
