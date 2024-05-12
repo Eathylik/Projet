@@ -297,11 +297,13 @@ h4 {
     margin-bottom: 20px;
     max-width: 100%;
     height: 150px;
+    border-radius: 1%;
 }
 
 .photo2 {
     max-width: 100%;
     height: 200px;
+    border-radius: 1%;
 }
 
 .topho {
@@ -315,11 +317,13 @@ h4 {
     margin-bottom: 20px;
     max-width: 100%;
     height: 200px;
+    border-radius: 1%;
 }
 
 .photo4 {
     max-width: 100%;
     height: 150px;
+    border-radius: 1%;
 }
 
 .bout4 {
