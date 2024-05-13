@@ -69,16 +69,13 @@ header {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-}
-
-header section {
-    background-color: rgba(0, 0, 0, 0.589);
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.452);
     height: 600px;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-
 }
+
+/* le  background-blend-mode permet avec un background color d'appliquer un filtre
+sur le background image afin d'avoir une image plus sombre ou plus clair*/
 
 /* la classe Icon est parente des titres (H) de la barre et du Learn more*/
 
