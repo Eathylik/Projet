@@ -43,7 +43,7 @@ button {
 
 header {
     background-image: url("./image/fond-page4.jpg");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -84,17 +84,52 @@ footer {
 
 .sport {
     display: flex;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .petit {
     font-size: 10px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3rem;
+    margin: 0;
+    padding: 0;
 }
 
 .barre {
     border-bottom: solid #fb2056 2px;
-    width: 50px;
-    margin: auto;
-    margin-top: 10px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+}
+
+.titre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.image {
+   margin-top: 50px;
+    text-align: center;
+} 
+
+.photo {
+    height: 250px;
+    border-radius: 1%;
+}
+
+.top {
+    margin-top: 150px;
 }
