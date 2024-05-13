@@ -81,3 +81,20 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.sport {
+    display: flex;
+    align-items: center;
+}
+
+.petit {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.barre {
+    border-bottom: solid #fb2056 2px;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
