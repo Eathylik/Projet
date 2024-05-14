@@ -1,8 +1,13 @@
+
 body {
     background-color: rgb(241, 241, 241);
     margin: 0;
     padding: 0;
     font-family: "Noto Sans", sans-serif;
+}
+
+.outdoor {
+    width: 40%;
 }
 
 ul {
@@ -27,9 +32,7 @@ a {
 
 /* balise Nav est parent du UL et Li */
 
-img{
-    height: 30px; 
-}
+
 
 button {
     border:none;
@@ -47,7 +50,7 @@ footer {
 
     margin-top: 40px;
     padding: 25px;
-    background-color: black;
+    background-color: rgb(43, 43, 43);
     color: white;
     
 }
@@ -55,11 +58,13 @@ footer {
 .class1 {
     display: flex;
     justify-content: center;
+    font-size: 12px;
 }
 
 .class2 {
     display: flex;
     justify-content: center;
+    font-size: 12px;
 }
 
 header {
@@ -202,6 +207,7 @@ h3 {
     position: relative;
     bottom: 6px;
     font-size: 10px;
+    font-weight: bold;
 }
 
 .titre {
@@ -258,13 +264,17 @@ h3 {
 
 .upcoming {
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 400px;
+    margin-left: 35px;
+    margin-right: 65px;
     gap: 1rem;
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+
+.right {
+    display: flex;
+    gap: 1em;
 }
 
 h4 {
@@ -287,19 +297,19 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    width: 200px;
+    width: 40%;
 }
 
 .photo1 {
     margin-bottom: 20px;
-    max-width: 100%;
-    height: 150px;
+    /* max-width: 100%;
+    height: 150px; */
     border-radius: 1%;
 }
 
 .photo2 {
-    max-width: 100%;
-    height: 200px;
+    /* max-width: 100%;
+    height: 200px; */
     border-radius: 1%;
 }
 
@@ -307,19 +317,24 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    width: 200px;
+    width: 40%;
 }
+
+.topho img, .photo img {
+    width: 100%;
+}
+
 
 .photo3 {
     margin-bottom: 20px;
-    max-width: 100%;
-    height: 200px;
+    /* max-width: 100%;
+    height: 200px; */
     border-radius: 1%;
 }
 
 .photo4 {
-    max-width: 100%;
-    height: 150px;
+    /* max-width: 100%;
+    height: 150px; */
     border-radius: 1%;
 }
 
@@ -337,4 +352,44 @@ h4 {
 
 .fin {
     font-size: 15px;
+}
+
+.ImgGauche {
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
+}
+
+.ImgDroite {
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
+}
+
+@media (max-width:1024px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    img {
+        width: 100%;
+    }
+
+    .upcoming {
+        flex-direction: column;
+    }
+
+    .tours {
+        width: 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .right, .photo, .topho, .activite, .explore {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    img {
+        width: 90%;
+    }
 }

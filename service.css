@@ -74,18 +74,21 @@ footer {
 
     margin-top: 40px;
     padding: 25px;
-    background-color: black;
-    color: white;    
+    background-color: rgb(43, 43, 43);
+    color: white;
+    
 }
 
 .class1 {
     display: flex;
     justify-content: center;
+    font-size: 12px;
 }
 
 .class2 {
     display: flex;
     justify-content: center;
+    font-size: 12px;
 }
 
 .adventure {
@@ -154,21 +157,12 @@ footer {
     height: 175px;
     width: 275px;
     border-radius: 2%;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
 }
 
 .titre2 {
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.ombre {
-    background-color: rgba(0, 0, 0, 0.11);
-    height: 175px;
-    width: 275px;
-    position: absolute;
-    border-radius: 2%;
-    margin-left: 20px;
-    margin-top: 10px;
 }
 
 .get {
