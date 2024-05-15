@@ -220,21 +220,15 @@ footer {
 }
 
 @media (max-width:768px) {
-    img {
-        width: 100%;
-    }
-
-    .upcoming {
+    .photo, .photo1, .photo2, .get {
         flex-direction: column;
-    }
-
-    .tours {
+        justify-content: center;
         width: 100%;
     }
-}
+}    
 
 @media (max-width:480px) {
-    .right, .photo, .topho, .activite, .explore {
+    .photo, .photo1, .photo2, .get {
         flex-direction: column;
         justify-content: center;
         width: 100%;

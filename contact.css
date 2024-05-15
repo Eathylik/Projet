@@ -5,6 +5,10 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
+.outdoor {
+    width: 100%;
+}
+
 ul {
     display: flex;
     gap: 1rem;
@@ -148,3 +152,34 @@ p {
 .info {
     font-size: 30px;
 }
+
+@media (max-width:1024px) {
+    img {
+        width: 25%;
+    }
+}
+
+@media (max-width:768px) {
+    .container, .contact {
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+    }
+
+    img {
+        width: 15%;
+    }
+}    
+
+@media (max-width:480px) {
+    .container, .contact {
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+
+    img {
+        width: 15%;
+    }
+
+} 

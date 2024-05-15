@@ -5,6 +5,10 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
+.outdoor {
+    width: 100%;
+}
+
 ul {
     display: flex;
     gap: 1rem;
@@ -135,3 +139,26 @@ h3 {
 .top {
     margin-top: 150px;
 }
+
+@media (max-width:1024px) {
+    img {
+        width: 25%;
+    }
+}
+
+@media (max-width:768px) {
+    .sport, .titre, .image, .photo {
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+    }
+}    
+
+@media (max-width:480px) {
+    .sport, .titre, .image, .photo {
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+
+} 
