@@ -23,6 +23,7 @@ nav{
 a {
     color: white;
     text-decoration: none;
+    font-size: 12px;
 }
 
 /* balise Nav est parent du UL et Li */
@@ -75,7 +76,7 @@ header {
 
 header section {
     background-color: rgba(0, 0, 0, 0.37);
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     gap: 3rem;

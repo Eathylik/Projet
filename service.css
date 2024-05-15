@@ -24,6 +24,7 @@ nav{
 a {
     color: white;
     text-decoration: none;
+    font-size: 12px;
 }
 
 img{
@@ -52,7 +53,7 @@ header {
 
 header section {
     background-color: rgba(0, 0, 0, 0.281);
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -171,6 +172,7 @@ footer {
     margin-right: 100px;
     margin-left: 100px;
     align-items: start;
+    gap: 1rem;
 }
 
 .gauche {
@@ -210,7 +212,7 @@ footer {
 
 .texte3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 @media (max-width:1024px) {
