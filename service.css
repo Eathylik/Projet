@@ -212,3 +212,35 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
+
+@media (max-width:1024px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    img {
+        width: 100%;
+    }
+
+    .upcoming {
+        flex-direction: column;
+    }
+
+    .tours {
+        width: 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .right, .photo, .topho, .activite, .explore {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    img {
+        width: 90%;
+    }
+}
