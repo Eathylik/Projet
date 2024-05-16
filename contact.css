@@ -152,7 +152,7 @@ textarea {
 
 p {
     font-size: 12px;
-    color: rgb(40, 40, 40);
+    color: rgba(40, 40, 40, 0.829);
 }
 
 .info {
