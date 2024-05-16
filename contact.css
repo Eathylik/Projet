@@ -111,11 +111,12 @@ form {
 }
 
 .petit {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 1.3rem;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -128,8 +129,9 @@ form {
 }
 
 .ready {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
+    font-family: "Montserrat", sans-serif;
 }
 
 .contact {
@@ -149,11 +151,13 @@ textarea {
 }
 
 p {
-    font-size: 15px;
+    font-size: 12px;
+    color: rgb(40, 40, 40);
 }
 
 .info {
-    font-size: 30px;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .send:hover{
