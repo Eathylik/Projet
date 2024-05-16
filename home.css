@@ -459,3 +459,35 @@ h4 {
         width: 90%;
     }
 }
+
+@media (max-width:375px) {
+    .right, .activite, .explore, nav {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .class1 {
+        text-align: center;
+    }
+
+    .wolrd {
+        margin: 0;
+        padding: 20%;
+        justify-content: center;
+    }
+
+    .photo, .topho {
+        width: 60%;
+        margin-left: 5%;
+    }
+
+    .upcoming {
+        margin: 0;
+        padding: 0;
+    }
+
+    .fin {
+        justify-content: start;
+    }
+}
