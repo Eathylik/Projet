@@ -158,7 +158,7 @@ h3 {
 }
 
 .fuerat {
-    color: rgb(40, 40, 40);
+    color: rgba(40, 40, 40, 0.829);
     font-size: 15px;
 }
 
@@ -210,7 +210,7 @@ h3 {
     text-align: center;
     font-size: 12px;
     padding: 1rem;
-    color: rgb(40, 40, 40);
+    color: rgba(40, 40, 40, 0.829);
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -297,8 +297,8 @@ h3 {
 
 .upcoming {
     margin-top: 20px;
-    margin-left: 35px;
-    margin-right: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
     gap: 1rem;
     display: flex;
     justify-content: space-between;
@@ -311,7 +311,7 @@ h3 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     align-items: end;
     margin: 0;
@@ -385,7 +385,10 @@ h4 {
 }
 
 .fin {
-    font-size: 15px;
+    font-size: 13px;
+    color: rgba(40, 40, 40, 0.829);
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .ImgGauche {
