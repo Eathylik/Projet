@@ -104,7 +104,7 @@ h1 {
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 64px;
+    font-size: 40px;
     margin: 0;
     padding: 0;
     margin-top: 20px;
@@ -115,7 +115,7 @@ h3 {
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     padding: 0;
     margin: 0;
 }
@@ -141,12 +141,30 @@ h3 {
     font-weight: bold;
 }
 
+.learn:hover {
+    background-color: #cc1b48;
+}
+
+.bout:hover {
+    background-color: #cc1b48;
+}
+
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 30px;
+}
+
+.fuerat {
+    color: rgb(40, 40, 40);
+    font-size: 15px;
+}
+
+.adam {
+    color: rgb(19, 19, 19);
+    font-size: 12px;
 }
 
 .point {
@@ -168,6 +186,10 @@ h3 {
     flex-direction: column;
 }
 
+.up {
+    font-size: 25px;
+}
+
 .barre2 {
     border-bottom: solid #fb2056 2px;
     width: 50px;
@@ -186,8 +208,11 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     padding: 1rem;
+    color: rgb(40, 40, 40);
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .droite {
@@ -217,7 +242,7 @@ h3 {
 
 .titre {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Montserrat", sans-serif;
 }
 .activite img {
@@ -258,6 +283,9 @@ h3 {
 
 .para {
     color: white;
+    font-size: 12px;
+    margin-right: 35px;
+    
 }
 
 .barre3 {
