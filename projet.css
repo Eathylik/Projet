@@ -151,18 +151,37 @@ h3 {
 }
 
 @media (max-width:768px) {
-    .sport, .titre, .image, .photo {
+    .sport, .titre, .image {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 60%;
+    }
+
+    .photo {
+        margin-left: 50%;
+        margin: 0;
+    }
+
+    .image {
+        margin-left: 5%;
+        width: 90%;
     }
 }    
 
 @media (max-width:480px) {
-    .sport, .titre, .image, .photo {
+    .sport, .titre, .image {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 70%;
+    }
+
+    .photo {
+        justify-content: center;
+        width: 50;
+        align-items: center;
+        margin-left: 45%;
     }
 
     nav {
@@ -171,6 +190,6 @@ h3 {
 
     .class1 {
         text-align: center;
-    }
+     }
 
 } 
