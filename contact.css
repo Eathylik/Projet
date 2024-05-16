@@ -192,12 +192,11 @@ p {
     .container, .contact {
         flex-direction: column;
         justify-content: center;
-        width: 60%;
+        width: 70%;
+        align-items: center;
     }
 
-    img {
-        width: 15%;
-    }
+    
 }    
 
 @media (max-width:480px) {

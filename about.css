@@ -157,9 +157,8 @@ span {
     .mission, .experience, .photo, .click {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 70%;
-        margin: 0%;
-        padding: 0;
     }
 }
 

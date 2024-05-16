@@ -407,16 +407,34 @@ h4 {
 
 @media (max-width:768px) {
     img {
-        width: 100%;
+        width: 70%;
     }
 
     .upcoming {
         flex-direction: column;
+        margin: 2%;
     }
 
     .tours {
         width: 100%;
     }
+
+    .wolrd {
+        margin: 0;
+        padding: 10%;
+        justify-content: center;
+    }
+
+    .banner {
+        margin-left: 8%;
+    }
+
+    .right {
+        justify-content: center;
+        width: 70%;
+        margin-left: 15%;
+    }
+
 }
 
 @media (max-width:480px) {
