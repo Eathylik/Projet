@@ -162,8 +162,6 @@ footer {
     width: 275px;
     border-radius: 2%;
     box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
-    background-blend-mode: color;
-    background-color: rgba(0, 0, 0, 0.829);
 }
 
 .titre2 {
