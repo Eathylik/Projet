@@ -7,7 +7,8 @@ body {
 }
 
 .outdoor {
-    width: 40%;
+    width: 45%;
+    margin-left: 20px;
 }
 
 ul {
@@ -387,7 +388,7 @@ h4 {
 }
 
 @media (max-width:480px) {
-    .right, .photo, .topho, .activite, .explore {
+    .right, .photo, .topho, .activite, .explore, nav {
         flex-direction: column;
         justify-content: center;
         width: 100%;
