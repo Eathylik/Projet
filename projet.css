@@ -165,4 +165,12 @@ h3 {
         width: 70%;
     }
 
+    nav {
+        flex-direction: column;
+    }
+
+    .class1 {
+        text-align: center;
+    }
+
 } 

@@ -426,6 +426,16 @@ h4 {
         width: 100%;
     }
 
+    .class1 {
+        text-align: center;
+    }
+
+    .wolrd {
+        margin: 0;
+        padding: 10%;
+        justify-content: center;
+    }
+
     img {
         width: 90%;
     }

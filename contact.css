@@ -211,6 +211,14 @@ p {
         flex-direction: column;
     }
 
+    .class1 {
+        text-align: center;
+    }
+
+    .container {
+        margin: 5%;
+    }
+
     img {
         width: 15%;
     }

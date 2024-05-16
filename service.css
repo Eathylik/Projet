@@ -241,10 +241,26 @@ footer {
     .photo, .photo1, .photo2, .get {
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 60%;
+        text-align: center;
     }
 
-    img {
-        width: 90%;
+    nav {
+        flex-direction: column;
     }
+
+    .class1 {
+        text-align: center;
+    }
+
+    .texte2 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .texte1 {
+        text-align: center;
+        padding: 0;
+    }
+
 }

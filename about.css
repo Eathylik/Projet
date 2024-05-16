@@ -168,7 +168,27 @@ span {
         flex-direction: column;
         justify-content: center;
         width: 90%;
-        margin: 0%;
+        margin: 2%;
         padding: 0;
+    }
+
+    .class1 {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .click {
+        font-size: 10px;
+    }
+
+    nav {
+        flex-direction: column;
     }
 }
