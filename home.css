@@ -218,6 +218,7 @@ h3 {
 .titre {
     font-weight: bold;
     font-size: 15px;
+    font-family: "Montserrat", sans-serif;
 }
 .activite img {
     height: auto;
@@ -257,7 +258,6 @@ h3 {
 
 .para {
     color: white;
-    font-family: "Montserrat", sans-serif;
 }
 
 .barre3 {
@@ -288,6 +288,7 @@ h4 {
     align-items: end;
     margin: 0;
     margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .tours {

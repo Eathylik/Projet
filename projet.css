@@ -64,7 +64,11 @@ header {
     flex-direction: column;
     align-items: center;
     color: white;
-    font-size: 40px;
+}
+
+.our {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer {
@@ -120,7 +124,6 @@ h3 {
 }
 
 .titre {
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 0;
     padding-top: 10px;
