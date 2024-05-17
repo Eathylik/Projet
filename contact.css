@@ -6,14 +6,19 @@ body {
 }
 
 .outdoor {
-    width: 100%;
+    width: 40%;
+    margin-left: 150px;
+    
 }
 
 ul {
+    margin-top: 1%;
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
     list-style-type: none;
+    margin-right: 150px;
+    align-items: center;
 }
 
 nav{
@@ -27,22 +32,19 @@ nav{
 a {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
 }
 
-img{
-    height: 30px; 
-}
 
 .action {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 14px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
@@ -56,7 +58,7 @@ header {
     flex-direction: column;
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.329);
-    height: 350px;
+    height: 600px;
 }
 
 .icon {
@@ -66,7 +68,7 @@ header {
     flex-direction: column;
     align-items: center;
     color: white;
-    font-size: 40px;
+    font-size: 64px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -82,14 +84,14 @@ footer {
 .class1 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
     color: #ffffff;
 }
 
 .class2 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
     color: #ffffff;
 }
 
@@ -102,36 +104,47 @@ form {
 .send {
     background-color: #fb2056;
     border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     margin-top: 50px;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
 
 .petit {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1.3rem;
     margin: 0;
-    padding: 0;
+    padding-top: 5%;
     font-family: "Montserrat", sans-serif;
+}
+
+.petit2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3rem;
+    margin: 0;
+    padding-top: 5%;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 5%;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-family: 'Noto Sans', sans-serif;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px;
+    margin-bottom: 5%;
 }
 
 .ready {
-    font-size: 22px;
+    font-size: 34px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
 }
@@ -142,31 +155,37 @@ form {
 }
 
 input {
-    margin-bottom: 1em;
-    width: 300px;
+    margin-bottom: 2em;
+    width: 600px;
+    height: 50px;
+    border: transparent;
+    border: solid rgb(221, 221, 221) 1px;
+    font-size: 20px;
 }
 
 textarea {
     margin-bottom: 1em;
-    width: 300px;
+    width: 600px;
     height: 100px;
-    
+    border: solid rgb(221, 221, 221) 1px;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
     color: rgba(40, 40, 40, 0.829);
 }
 
 .info {
-    font-size: 22px;
+    font-size: 34px;
     font-family: "Montserrat", sans-serif;
 }
 
 .rond {
     background-color: #fb2056;
-    height: 25px;
-    width: 25px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     margin-top: 10px;
     display: inline-flex;

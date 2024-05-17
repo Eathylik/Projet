@@ -6,14 +6,19 @@ body {
 }
 
 .outdoor {
-    width: 100%;
+    width: 40%;
+    margin-left: 150px;
+    
 }
 
 ul {
+    margin-top: 1%;
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
     list-style-type: none;
+    margin-right: 150px;
+    align-items: center;
 }
 
 nav{
@@ -27,22 +32,19 @@ nav{
 a {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
 }
 
-img{
-    height: 30px; 
-}
 
 .action {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 14px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
@@ -55,7 +57,7 @@ header {
     flex-direction: column;
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.281);
-    height: 350px;
+    height: 600px;
 }
 
 .icon {
@@ -68,7 +70,7 @@ header {
 }
 
 .our {
-    font-size: 45px;
+    font-size: 64px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -84,26 +86,25 @@ footer {
 .class1 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .class2 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .sport {
     display: flex;
-    align-items: start;
+    justify-content: start;
     flex-direction: column;
-    margin-left: 100px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 29%;
+    margin-top: 5%;
 }
 
 .petit {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.3rem;
@@ -125,7 +126,7 @@ h3 {
 }
 
 .titre {
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
     padding-top: 10px;
     color: rgba(40, 40, 40, 0.829);
@@ -137,8 +138,9 @@ h3 {
 } 
 
 .photo {
-    height: 250px;
+    height: 400px;
     border-radius: 1%;
+    gap: 2rem;
 }
 
 .top {
