@@ -95,7 +95,7 @@ h3 {
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 70px;
+    margin-top: 10%;
     font-size: 64px;
     font-family: "Montserrat", sans-serif;
 }
@@ -112,8 +112,8 @@ h4 {
 
 .mission {
     margin-top: 20px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     /* height: 300px; */
     gap: 1rem;
     display: flex;
@@ -121,8 +121,8 @@ h4 {
     padding: 40px;
 }
  .photo {
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 80%;
     border-radius: 1%;
     margin-top: 30px;
     box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
@@ -142,8 +142,8 @@ h4 {
 .experience {
     margin: 0;
     padding: 0;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     gap: 1rem;
     display: flex;
     justify-content: center;
