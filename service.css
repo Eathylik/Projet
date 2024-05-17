@@ -10,6 +10,8 @@ ul {
     gap: 1rem;
     justify-content: flex-end;
     list-style-type: none;
+    margin-top: 30px;
+    align-items: center;
 }
 
 
@@ -24,22 +26,22 @@ nav{
 a {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 img{
-    height: 30px; 
+    height: 40px; 
 }
 
 .action {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 14px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
@@ -54,7 +56,7 @@ header {
 
 header section {
     background-color: rgba(0, 0, 0, 0.281);
-    height: 350px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -68,7 +70,7 @@ header section {
     flex-direction: column;
     align-items: center;
     color: white;
-    font-size: 40px;
+    font-size: 64px;
     margin-bottom: 130px;
     font-family: "Montserrat", sans-serif;
 }
@@ -85,13 +87,13 @@ footer {
 .class1 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .class2 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .adventure {
@@ -104,7 +106,7 @@ footer {
 }
 
 .titre1 {
-    font-size: 25px;
+    font-size: 34px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -117,7 +119,7 @@ footer {
 
 .texte1 {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     text-align: center;
     padding-left: 80px;
@@ -128,9 +130,10 @@ footer {
 .photo {
     margin-top: 40px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .photo1 {
@@ -148,7 +151,7 @@ footer {
 
 .texte2 {
     font-family: 'Noto', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     text-align: center;
     padding-left: 80px;
@@ -159,8 +162,8 @@ footer {
 .trips {
     display: flex;
     box-sizing: border-box;
-    height: 175px;
-    width: 275px;
+    height: 300px;
+    width: 450px;
     border-radius: 2%;
     box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
 }
@@ -168,14 +171,15 @@ footer {
 .titre2 {
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .get {
     display: flex;
+    justify-content: center;
     margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 25%;
+    margin-left: 25%;
     align-items: start;
     gap: 1rem;
 }
@@ -215,12 +219,12 @@ footer {
 
 .titre3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .texte3 {
     font-family: "Noto Sans", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: rgba(40, 40, 40, 0.829);
 }
 
