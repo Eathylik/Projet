@@ -32,7 +32,7 @@ img{
     height: 30px; 
 }
 
-button {
+.action {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
@@ -40,8 +40,9 @@ button {
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    position: relative;
-    bottom: 6px;
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
 }
 
 footer {
@@ -107,8 +108,8 @@ h2 {
     padding: 40px;
 }
  .photo {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     border-radius: 1%;
     margin-top: 30px;
     box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
@@ -148,6 +149,10 @@ h2 {
 span {
     font-size: 30px;
     color: #fb2056;
+}
+
+.action:hover {
+    background-color: #c41f48;
 }
 
 @media (max-width:1024px) {

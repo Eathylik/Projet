@@ -34,7 +34,7 @@ img{
     height: 30px; 
 }
 
-button {
+.action {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
@@ -42,8 +42,9 @@ button {
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    position: relative;
-    bottom: 6px;
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
 }
 
 header {
@@ -142,6 +143,10 @@ h3 {
 
 .top {
     margin-top: 150px;
+}
+
+.action:hover {
+    background-color: #c41f48;
 }
 
 @media (max-width:1024px) {

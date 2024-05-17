@@ -38,7 +38,7 @@ a {
 
 
 
-button {
+.action {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
@@ -46,8 +46,8 @@ button {
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    position: relative;
-    bottom: 6px;
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
 
@@ -142,11 +142,15 @@ h3 {
 }
 
 .learn:hover {
-    background-color: #cc1b48;
+    background-color: #c41f48;
 }
 
 .bout:hover {
-    background-color: #cc1b48;
+    background-color: #c41f48;
+}
+
+.action:hover {
+    background-color: #c41f48;
 }
 
 .banner {
@@ -309,6 +313,7 @@ h3 {
 .right {
     display: flex;
     gap: 1em;
+    margin-left: 10;
 }
 
 h4 {
@@ -332,7 +337,7 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    width: 40%;
+    width: 35%;
 }
 
 .photo1 {
@@ -352,7 +357,7 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    width: 40%;
+    width: 35%;
 }
 
 .topho img, .photo img {
@@ -433,7 +438,7 @@ h4 {
     .right {
         justify-content: center;
         width: 70%;
-        margin-left: 15%;
+        margin-left: 30%;
     }
 
 }

@@ -34,7 +34,7 @@ img{
     height: 30px; 
 }
 
-button {
+.action {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
@@ -42,9 +42,9 @@ button {
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    position: relative;
-    bottom: 6px;
-    color: white;
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
 }
 
 header {
@@ -175,11 +175,15 @@ p {
 }
 
 .send:hover{
-    background-color: #cc1b48;
+    background-color: #c41f48;
 }
 
 .rond:hover{
     background-color: #000000d5;
+}
+
+.action:hover {
+    background-color: #c41f48;
 }
 
 
