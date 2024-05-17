@@ -6,10 +6,13 @@ body {
 }
 
 ul {
+    margin-top: 1%;
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
     list-style-type: none;
+    margin-right: 150px;
+    align-items: center;
 }
 
 nav{
@@ -18,32 +21,36 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 15px;
+}
+
+img {
+    width: 40%;
+    margin-left: 150px;
 }
 
 a {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /* balise Nav est parent du UL et Li */
 
-img{
-    height: 30px; 
-}
 
 .action {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 14px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
+
 
 footer {
 
@@ -57,13 +64,13 @@ footer {
 .class1 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .class2 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 header {
@@ -77,7 +84,7 @@ header {
 
 header section {
     background-color: rgba(0, 0, 0, 0.37);
-    height: 350px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -89,27 +96,33 @@ h3 {
     justify-content: center;
     color: white;
     margin-top: 70px;
-    font-size: 50px;
+    font-size: 64px;
     font-family: "Montserrat", sans-serif;
 }
 
 h2 {
     font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
 }
 
 .mission {
     margin-top: 20px;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-left: 30%;
+    margin-right: 30%;
     /* height: 300px; */
     gap: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 40px;
 }
  .photo {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     border-radius: 1%;
     margin-top: 30px;
     box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
@@ -122,25 +135,25 @@ h2 {
 }
 
 .click {
-    font-size: 12px;
+    font-size: 16px;
     color: rgba(40, 40, 40, 0.829);
 }
 
 .experience {
     margin: 0;
     padding: 0;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-left: 30%;
+    margin-right: 30%;
     gap: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 40px;
 }
 
 .liste {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     color: rgba(19, 19, 19);
