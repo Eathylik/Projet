@@ -7,15 +7,19 @@ body {
 }
 
 .outdoor {
-    width: 45%;
-    margin-left: 20px;
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 5%;
 }
 
 ul {
+    margin-top: 1%;
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
     list-style-type: none;
+    margin-right: 150px;
+    align-items: center;
 }
 
 
@@ -31,7 +35,7 @@ nav{
 a {
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /* balise Nav est parent du UL et Li */
@@ -42,11 +46,11 @@ a {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 14px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
@@ -63,13 +67,13 @@ footer {
 .class1 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .class2 {
     display: flex;
     justify-content: center;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 header {
@@ -81,7 +85,7 @@ header {
     flex-direction: column;
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.568);
-    height: 600px;
+    height: 800px;
 }
 
 /* le  background-blend-mode permet avec un background color d'appliquer un filtre
@@ -104,7 +108,7 @@ h1 {
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 64px;
     margin: 0;
     padding: 0;
     margin-top: 20px;
@@ -115,7 +119,7 @@ h3 {
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     padding: 0;
     margin: 0;
 }
@@ -131,12 +135,12 @@ h3 {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     margin-top: 50px;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
@@ -163,12 +167,12 @@ h3 {
 
 .fuerat {
     color: rgba(40, 40, 40, 0.829);
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .adam {
     color: rgb(19, 19, 19);
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .point {
@@ -191,7 +195,7 @@ h3 {
 }
 
 .up {
-    font-size: 25px;
+    font-size: 34px;
 }
 
 .barre2 {
@@ -203,7 +207,7 @@ h3 {
 
 .activite {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .gauche {
@@ -212,7 +216,7 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     padding: 1rem;
     color: rgba(40, 40, 40, 0.829);
     margin-left: 35px;
@@ -234,19 +238,19 @@ h3 {
     border:none;
     background-color: #fb2056;
     border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     position: relative;
     bottom: 6px;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
 
 .titre {
     font-weight: bold;
-    font-size: 13px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     color: #000;
 }
@@ -283,12 +287,16 @@ h3 {
     align-items: start;
     gap: 2em;
     padding-left: 50%;
-    padding-top: 10%;
+    padding-top: 5%;
+}
+
+.the {
+    font-size: 34px;
 }
 
 .para {
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     margin-right: 35px;
     
 }
@@ -306,7 +314,7 @@ h3 {
     margin-right: 50px;
     gap: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
 }
 
@@ -326,11 +334,8 @@ h4 {
 }
 
 .tours {
-    margin-left: 20px;
+    margin-left: 300px;
     width: 40%;
-    display: flex;
-    align-items: start;
-    flex-direction: column;
 }
 
 .photo {
@@ -378,20 +383,8 @@ h4 {
     border-radius: 1%;
 }
 
-.bout4 {
-    border:none;
-    background-color: #fb2056;
-    border-radius: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    bottom: 6px;
-    font-size: 10px;
-}
-
 .fin {
-    font-size: 13px;
+    font-size: 16px;
     color: rgba(40, 40, 40, 0.829);
     margin-bottom: 50px;
     margin-top: 30px;
