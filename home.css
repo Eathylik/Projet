@@ -391,11 +391,11 @@ h4 {
 }
 
 .ImgGauche {
-    box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.103);
 }
 
 .ImgDroite {
-    box-shadow: 6px 6px rgba(0, 0, 0, 0.103);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.103);
 }
 
 @media (max-width:1024px) {
@@ -409,17 +409,21 @@ h4 {
         width: 70%;
     }
 
+    nav {
+        flex-direction: column;
+    }
+
     .upcoming {
         flex-direction: column;
-        margin: 2%;
     }
 
     .tours {
-        width: 100%;
+        justify-content: center;
+        margin-left: 30%;
+        padding: 0;
     }
 
     .wolrd {
-        margin: 0;
         padding: 10%;
         justify-content: center;
     }
@@ -431,7 +435,11 @@ h4 {
     .right {
         justify-content: center;
         width: 70%;
-        margin-left: 30%;
+        margin-left: 10%;
+    }
+
+    .class1 {
+        text-align: center;
     }
 
 }
@@ -441,6 +449,11 @@ h4 {
         flex-direction: column;
         justify-content: center;
         width: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+        margin-left: 30%;
     }
 
     .class1 {
