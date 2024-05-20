@@ -213,17 +213,36 @@ p {
 }
 
 @media (max-width:768px) {
-    .container, .contact {
+    .container {
         flex-direction: column;
         justify-content: center;
         width: 70%;
         align-items: center;
     }
 
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .outdoor {
+        margin: 0;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+
+    .contact {
+        margin: 0;
+        margin-right: 20%;
+    }
+
     .container {
         margin: 0;
         padding: 0;
-        margin-left: 15%;
+        margin-left: 10%;
     }
     
     .class1 {
@@ -233,22 +252,29 @@ p {
 }    
 
 @media (max-width:480px) {
-    .container, .contact {
+    .container {
         flex-direction: column;
         justify-content: center;
-        width: 70%;
+        width: 100%;
+    }
+
+    .contact {
+        justify-content: center;
+        margin: 0;
+        margin-right: 20%;
     }
 
     nav{
         flex-direction: column;
     }
 
-    .class1 {
-        text-align: center;
+    ul {
+        flex-direction: column;
+        margin-right: 0;
     }
 
-    .container {
-        margin: 5%;
+    .class1 {
+        text-align: center;
     }
 
     img {
